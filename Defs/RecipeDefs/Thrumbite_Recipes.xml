@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>Make_Thrumbite</defName>
+    <label>make thrumbite</label>
+    <description>Refines a thrumbo horn into thrumbite.</description>
+	<jobString>Refining thrumbite from horn.</jobString>
+	<workAmount>7200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>CutStone</effectWorking>
+    <soundWorking>Recipe_MakeStoneBlocks</soundWorking>
+    <targetCountAdjustment>75</targetCountAdjustment>
+    <recipeUsers>
+      <li>TableStonecutter</li>
+    </recipeUsers>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ThrumboHorn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>ThrumboHorn</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <Thrumbite>75</Thrumbite>
+    </products>
+	<skillRequirements>
+      <Crafting>8</Crafting>
+    </skillRequirements>
+	<researchPrerequisite>Thrumbite</researchPrerequisite>
+  </RecipeDef>
+
+</Defs>

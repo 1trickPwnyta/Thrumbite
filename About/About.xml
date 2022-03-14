@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Thrumbite</name>
+	<author>1trickPwnyta</author>
+	<packageId>thrumbite.1trickPwnyta</packageId>
+	<supportedVersions>
+		<li>1.3</li>
+	</supportedVersions>
+	<description>
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+If you enjoy my work and want to support me and my family, I take donations at:
+https://ko-fi.com/1trickpwnyta
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+	</description>
+	<url>https://github.com/1trickPwnyta/Thrumbite</url>
+</ModMetaData>
